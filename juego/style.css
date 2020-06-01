@@ -2,7 +2,11 @@
     font-family: fantasy;
 }
 .header{
+<<<<<<< HEAD
    background-color: rgb(85, 78, 78);
+=======
+   background-color: aquamarine;
+>>>>>>> 43832efcfe06b77314a0a8bb64cbb218c7bd92fe
 }
 
 .titulo{
@@ -10,7 +14,10 @@ font-size: 35px;/*tamaño de la letra*/
 font-weight: 300;
 text-align: center;/*Alinear al centro*/
 padding: 20px 0;/*Margenes arriba-abajo, derecha izquierda*/
+<<<<<<< HEAD
 color: white ;
+=======
+>>>>>>> 43832efcfe06b77314a0a8bb64cbb218c7bd92fe
 }
 
 .start{
