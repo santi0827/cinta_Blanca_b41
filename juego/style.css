@@ -1,43 +1,47 @@
-.header{
-   
-background-color: rgb(85, 78, 78);
+.body{
+    font-family: fantasy;
 }
-
+.header{
+   background-color: rgb(85, 78, 78);
+}
 
 .titulo{
-    text-align: center;
-    color: cornflowerblue;
-    font-size: 32px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: 700;
-    text-transform: uppercase;
+font-size: 35px;/*tamaño de la letra*/
+font-weight: 300;
+text-align: center;/*Alinear al centro*/
+padding: 20px 0;/*Margenes arriba-abajo, derecha izquierda*/
+color: white ;
+}
+
+.start{
     padding: 30px 0;
-}
-
-.articu{
     text-align: center;
-    padding 30px 0;
-   /* margin-top: 20 px;
-    margin-left: 200px;
-    margin-right: 200px;*/
 }
-
-.cuerpo{
-    background-color: cyan;
-    margin-left: 80px;
+.start-leabel{
+    display: block;/*poner en bloque*/
+    font-size: 22px;
 }
-
-.nom{
+.input{
+    display: block;
+    margin: 15px auto;
+    padding: 7px 15px;
+    border-radius: 7px;
+    border: 1px solid #adadad;
+}
+.start-button{
+    
+  background-color: #fa8072;
+  color: white;
+  border: 0;
+  padding: 10px 40px;
+  border-radius: 7px;   
+}
+.start-button:hover{
+    color: white;
+    background-color: #a15048;
+}
+.nombre{
+    font-size: 23px ;
     text-align: left;
-    
-
-
-}
-.vs{
-    text-align: center;
-    display: inline;
-}
-.pc{
-    text-align: right;
-    
+    margin: 40px
 }
