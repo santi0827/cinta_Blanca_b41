@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0%;
+
+}
+.img{
+    width: 100%;
+}
+
+.titulo{
+text-align: center;
+}
+
+.father{
+    display: flex;
+    align-items: space-evenly;
+}

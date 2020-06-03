@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+   box box-sizing: border-box
+   ;
+}
+html, body{
+    height: 100%;
+}
+body{
+    background-color: green;
+}
+
+.father{
+    display: flex;
+   /* justify-content: flex-start;*/
+   /* justify-content: flex-end;*/
+    /*justify-content: flex-center;*/
+    justify-content: space-evenly;
+    /*align-items: center;*/
+    background-color: hotpink;
+    height: 100%;
+    /*align-items: stretch;*/
+   /* align-content: center;*/
+   /*align-content: space-around;*/
+   flex-wrap : wrap;
+   flex-direction: row ;
+
+
+}
+.box 
+{
+    margin: 5px;
+    width: 200px;
+    height: 200px;
+    background-color: greenyellow;
+}
