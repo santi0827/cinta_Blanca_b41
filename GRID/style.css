@@ -4,10 +4,13 @@
     box-sizing: border-box;
 }
 html , body{
-    height: 110%;
+    height: 100%;
    
 }
-
+body{
+     background-image: url(./eugene-quek-D7_FyuUfaEo-unsplash.jpg);
+     background-size: cover;
+}
 
 .father{
     
@@ -15,9 +18,8 @@ html , body{
     grid-template-columns: repeat(5 ,1fr);
     grid-template-rows: repeat(3, 1fr);
     height: 100%;
-   background-image: url(./eugene-quek-D7_FyuUfaEo-unsplash.jpg);
-   background-repeat: repeat;
-   background-size: cover;
+  
+   
 }
 .imagen{
     width: 100%;
